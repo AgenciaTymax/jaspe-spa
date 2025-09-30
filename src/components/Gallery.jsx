@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import espacoImage from "../assets/IMG_2163.webp";
 
 const Gallery = () => {
   const images = [
@@ -60,7 +61,8 @@ const Gallery = () => {
                 <img 
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" 
                   alt={image.title}
-                 src="https://images.unsplash.com/photo-1595872018818-97555653a011" />
+                  src={espacoImage} 
+                />
               </div>
               
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
